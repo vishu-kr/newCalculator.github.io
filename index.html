@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="calculator">
+            <div class="calculator_body">
+                <div>
+                    <h1 id="output">0</h1>
+                    <p id="input"></p>
+                </div>
+            </div>
+            <div class="calculator_footer">
+                <div class="allClear" onclick="calculate('AC')"><span>AC</span></div>
+                <div class="clear" onclick="calculate('C')"><span>C</span></div>
+                <div class="remainder" onclick="calculate('%')"><span>%</span></div>
+                <div class="divide" onclick="calculate('/')"><span>÷</span></div>
+                <div onclick="calculate('7')"><span>7</span></div>
+                <div onclick="calculate('8')"><span>8</span></div>
+                <div onclick="calculate('9')"><span>9</span></div>
+                <div class="multiply" onclick="calculate('*')"><span>×</span></div>
+                <div onclick="calculate('4')"><span>4</span></div>
+                <div onclick="calculate('5')"><span>5</span></div>
+                <div onclick="calculate('6')"><span>6</span></div>
+                <div class="substract" onclick="calculate('-')"><span>-</span></div>
+                <div onclick="calculate('1')"><span>1</span></div>
+                <div onclick="calculate('2')"><span>2</span></div>
+                <div onclick="calculate('3')"><span>3</span></div>
+                <div class="addition" onclick="calculate('+')"><span>+</span></div>
+                <div onclick="calculate('.')"><span>.</span></div>
+                <div onclick="calculate('00')"><span>00</span></div>
+                <div onclick="calculate('0')"><span>0</span></div>
+                <div class="equal" onclick="calculate('=')"><span>=</span></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
